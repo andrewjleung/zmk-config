@@ -16,10 +16,10 @@
 // layers
 #define DEFAULT 0
 #define LOWER 1
-// #define SYMBOL 2
-// #define COMPUTER 3
-#define MAGIC 2
-#define FACTORY_TEST 3
+#define SYMBOL 2
+#define COMPUTER 3
+#define MAGIC 4
+#define FACTORY_TEST 5
 
 / {
     behaviors {
@@ -136,27 +136,27 @@
         //     >;
         // };
 
-        // symbol_layer {
-        //     bindings = <
-        //     &none             &none               &none           &none           &none                                                                                                         &none      &none      &none      &none      &none
-        //     &none             &none               &none           &none           &none           &none                                                                              &none      &none      &none      &none      &none      &none
-        //     &none             &none               &none           &none           &none           &none                                                                              &none      &kp COMMA  &kp LBKT   &kp RBKT   &kp SEMI   &none
-        //     &none             &none               &none           &none           &none           &none                                                                              &none      &kp SQT    &kp LPAR   &kp RPAR   &kp COLON  &none
-        //     &none             &none               &none           &none           &none           &none           &trans     &trans     &trans     &trans     &trans     &trans      &none      &none      &kp LBRC   &kp RBRC   &none      &none
-        //     &none             &none               &none           &none           &none                           &trans     &trans     &trans     &trans     &trans     &trans                 &none      &none      &none      &none      &none
-        //     >;
-        // };
-        // 
-        // computer_layer {
-        //     bindings = <
-        //     &none             &none               &none           &none           &none                                                                                                         &none      &none        &none        &none      &none
-        //     &none             &none               &none           &none           &none           &none                                                                              &none      &none      &none        &none        &none      &none
-        //     &none             &none               &none           &none           &none           &none                                                                              &none      &none      &kp C_BRI_DN &kp C_BRI_UP &none      &none
-        //     &none             &none               &none           &none           &none           &none                                                                              &none      &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none      &none
-        //     &none             &none               &none           &none           &none           &none           &none      &none      &none      &none      &none      &none       &none      &none      &none        &none        &none      &none
-        //     &none             &none               &none           &none           &none                           &none      &none      &none      &none      &none      &none                  &none      &none        &none        &none      &none
-        //     >;
-        // };
+        symbol_layer {
+            bindings = <
+            &none             &none               &none           &none           &none                                                                                                         &none      &none      &none      &none      &none
+            &none             &none               &none           &none           &none           &none                                                                              &none      &none      &none      &none      &none      &none
+            &none             &none               &none           &none           &none           &none                                                                              &none      &kp COMMA  &kp LBKT   &kp RBKT   &kp SEMI   &none
+            &none             &none               &none           &none           &none           &none                                                                              &none      &kp SQT    &kp LPAR   &kp RPAR   &kp COLON  &none
+            &none             &none               &none           &none           &none           &none           &trans     &trans     &trans     &trans     &trans     &trans      &none      &none      &kp LBRC   &kp RBRC   &none      &none
+            &none             &none               &none           &none           &none                           &trans     &trans     &trans     &trans     &trans     &trans                 &none      &none      &none      &none      &none
+            >;
+        };
+        
+        computer_layer {
+            bindings = <
+            &none             &none               &none           &none           &none                                                                                                         &none      &none        &none        &none      &none
+            &none             &none               &none           &none           &none           &none                                                                              &none      &none      &none        &none        &none      &none
+            &none             &none               &none           &none           &none           &none                                                                              &none      &none      &kp C_BRI_DN &kp C_BRI_UP &none      &none
+            &none             &none               &none           &none           &none           &none                                                                              &none      &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none      &none
+            &none             &none               &none           &none           &none           &none           &none      &none      &none      &none      &none      &none       &none      &none      &none        &none        &none      &none
+            &none             &none               &none           &none           &none                           &none      &none      &none      &none      &none      &none                  &none      &none        &none        &none      &none
+            >;
+        };
 
         magic_layer {
             bindings = <
