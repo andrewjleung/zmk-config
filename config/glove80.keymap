@@ -1370,7 +1370,7 @@
 #define KEY_LH_C3R6 PG_DN
 #define KEY_LH_C2R6 END
 #define KEY_LH_T4 BACKSPACE
-#define KEY_LH_T5 DELETE
+#define KEY_LH_T5 LSFT
 #define KEY_LH_T6 0
 #define KEY_RH_T6 0
 #define KEY_RH_T5 TAB
@@ -11246,7 +11246,7 @@ UNICODE_MORPH_MODS
                     &kp GRAVE                          &kp Q  &LeftRing2 (W, LAYER_Colemak)                          &kp F                          &kp P                  &kp G                                                                                                                                                    &kp J                             &kp L                           &kp U  &RightRing2 (Y, LAYER_Colemak)                        &kp SEMI                     &kp MINUS
                    &caps_word  &LeftPinky (A, LAYER_Colemak)  &LeftRing1 (R, LAYER_Colemak)  &LeftMiddy (S, LAYER_Colemak)  &LeftIndex (T, LAYER_Colemak)  &plain LAYER_Typing D                                                                                                                                    &plain LAYER_Typing H    &RightIndex (N, LAYER_Colemak)  &RightMiddy (E, LAYER_Colemak)  &RightRing1 (I, LAYER_Colemak)  &RightPinky (O, LAYER_Colemak)                       &kp SQT
  &sticky_key_modtap LSFT LSFT                          &kp Z                          &kp X                          &kp C                          &kp V                  &kp B      &thumb LAYER_Function ESC                      &kp UP  &kp DOWN  &kp LEFT               &kp RIGHT  &thumb LAYER_System ENTER                  &kp K                             &kp M                       &kp COMMA                         &kp DOT                        &kp FSLH  &sticky_key_modtap RSFT RSFT
-         &magic LAYER_Magic 0                       &kp HOME                      &kp PG_UP                      &kp PG_DN         &thumb LAYER_Emoji END                         &thumb LAYER_Cursor BACKSPACE  &thumb LAYER_Number DELETE    &lower    &lower  &thumb LAYER_Mouse TAB  &space LAYER_Symbol SPACE                         &thumb_parang_left LAYER_World 0                        &kp LBKT                        &kp RBKT                   &parang_right          &magic LAYER_Magic 0
+         &magic LAYER_Magic 0                       &kp HOME                      &kp PG_UP                      &kp PG_DN         &thumb LAYER_Emoji END                         &thumb LAYER_Cursor BACKSPACE  &thumb LAYER_Number LSFT      &lower    &lower  &thumb LAYER_Mouse TAB  &space LAYER_Symbol SPACE                         &thumb_parang_left LAYER_World 0                        &kp LBKT                        &kp RBKT                   &parang_right          &magic LAYER_Magic 0
             >;
         };
 
